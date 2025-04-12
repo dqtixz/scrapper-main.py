@@ -121,7 +121,6 @@ def main():
 
     test_url = input("Enter the upload.ee HTML URL: ").strip()
 
-    # Adicionando controle de threads
     while True:
         try:
             num_threads = int(input("Enter the number of threads you want to use: "))
